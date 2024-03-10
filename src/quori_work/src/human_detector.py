@@ -26,7 +26,13 @@ class PoseTracking:
             "/astra_ros/devices/default/color/image_color",
             self.callback,
             10)
+        self.laser_sub = self.create_subscription(
+            LaserScan,
+            "laserscan",
+            self.laser_callback,
+            10)
         self.publisher_ = self.create_publisher(Float64MultiArray, 'facial_features', 10)
+        self.laser_data = None
         self.landmark_points = ['nose', 'left_eye_inner', 'left_eye', 'left_eye_outer', 'right_eye_inner', 'right_eye', 'right_eye_outer', 'left_ear', 'right_ear', 'mouth_left', 'mouth_right', 'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_pinky', 'right_pinky', 'left_index', 'right_index', 'left_thumb', 'right_thumb', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle', 'left_heel', 'right_heel', 'left_foot_index', 'right_foot_index']
         base_options = python.BaseOptions(model_asset_path='/home/quori4/quori_files/quori_ros/src/quori_exercises/exercise_session/pose_landmarker.task')
         options = vision.PoseLandmarkerOptions(
@@ -71,10 +77,27 @@ class PoseTracking:
         else:
             return -180  # Facing away from camera
 
+    def laser_callback(self, data):
+        self.laser_data = data.ranges
 
     def callback(self, data):
         if not self.flag:
             return
+
+        if self.laser_data:
+            front_data = self.laser_data[:90] + self.laser_data[-90:]
+            min_distance = min(front_data)
+            min_distance_index = front_data.index(min_distance)
+            if min_distance_index < 45:
+                label = "left left"
+            elif min_distance_index < 90:
+                label = "left middle"
+            elif min_distance_index < 135:
+                label = "right middle"
+            else:
+                label = "right right"
+
+            print(f"Object detected at {min_distance}m in the {label} direction")
 
         image = np.frombuffer(data.data, dtype=np.uint8).reshape(
             data.height, data.width, -1)
