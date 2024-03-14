@@ -116,6 +116,81 @@ Note: It's important to share the host's network and the `/dev/shm/` directory w
 ```
 Note: If you have run into any issues to this point please see the troubleshooting and reference sections at the bottom of this README.
 
+### Network Connection Setup:
+
+It is critical that all the systems are connected to the same network connection.
+
+On the Quori open a terminal and run: 
+``` bash
+Hostname -I
+```
+The output of this would be an IP address for the Quori. We will refer to this as {$QUORI_IP}.
+
+On the Quori run: 
+
+``` bash
+export ROS_IP={QUORI_IP}
+export ROS_MASTER_URI=http://{QUORI_IP}:11311
+```
+
+Note: Port can be changed but must be consistant throughout all export commands.
+
+In Tilix/Docker Noetic system open a terminal and run: 
+``` bash
+Hostname -I
+```
+The output of this would be an IP address for the Quori. We will refer to this as {$ROS1_IP}.
+
+In Tilix/Docker Noetic system run: 
+
+``` bash
+export ROS_IP={$ROS1_IP}
+export ROS_MASTER_URI=http://**{QUORI_IP}**:11311
+```
+
+In the ROS2/Humble system open a terminal and run: 
+``` bash
+Hostname -I
+```
+The output of this would be an IP address for the Quori. We will refer to this as {$ROS2_IP}.
+
+In the ROS2/Humble system run: 
+
+``` bash
+export ROS_IP={$ROS2_IP}
+export ROS_MASTER_URI=http://**{QUORI_IP}**:11311
+```
+Note: It is critical to set these on the ROS2 system for the bridge to work correctly, regardless of how ROS2 handles network communication.
+
+## Testing 
+
+Similar to above we will be using the talker and listener tutorial nodes to test a basic functionality.
+
+If you are missing a terminal or system repeat the steps from the "How to use ros-humble-ros1-bridge" section of this README. 
+
+On the Quori run:
+``` bash
+  source /opt/ros/noetic/setup.bash
+  rosrun rospy_tutorials talker
+```
+
+From the Ubuntu 22.04 ROS2 Humble system:
+
+``` bash
+  source /opt/ros/humble/setup.bash
+  ros2 run demo_nodes_cpp listener
+```
+Note: If this doesnt work start by running the following on the Tilix/ Docker Noetic system:
+``` bash
+rostopic list
+```
+
+Here we should see a topic called /chatter
+
+If it isnt there then in order try:
+- running ``` bash $ROS_IP``` and ``` bash $ROS_MASTER_URI``` on all systems, make sure that all of the MASTER's is set to the QUORI_IP and that all the ROS_IP's on each system is unique.
+- run ``` bash rostopic list``` on the Tilix system and see if the the /chatter topic is there. If its there its an issue with the bridge, if it isn't it is a network issue. 
+- If they are the same please repeat section "Network Connection Setup" from this README
 
 ## Future Work
 
@@ -123,7 +198,7 @@ There are a number of options in order to get the quori project working in ROS2.
 
 1. Continue to migrate the ROS1 packages to ROS2. https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html
 2. New clean build creating a quori system in ROS2 that can follow a new architecture different from the original.
-3. Hybrid wit bridge. With ROS2 Nodes communicating with ROS1 nodes over topics.
+3. Hybrid with bridge. With ROS2 Nodes communicating with ROS1 nodes over topics.
 
 Not all ROS topics are on the bridge. (solutions)
 1. Figure out how to write a cutom topic.
