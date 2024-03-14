@@ -188,8 +188,8 @@ rostopic list
 Here we should see a topic called /chatter
 
 If it isnt there then in order try:
-- running ``` bash $ROS_IP``` and ``` bash $ROS_MASTER_URI``` on all systems, make sure that all of the MASTER's is set to the QUORI_IP and that all the ROS_IP's on each system is unique.
-- run ``` bash rostopic list``` on the Tilix system and see if the the /chatter topic is there. If its there its an issue with the bridge, if it isn't it is a network issue. 
+- running ```$ROS_IP``` and ```$ROS_MASTER_URI``` on all systems, make sure that all of the MASTER's is set to the QUORI_IP and that all the ROS_IP's on each system is unique.
+- run ```rostopic list``` on the Tilix system and see if the the /chatter topic is there. If its there its an issue with the bridge, if it isn't it is a network issue. 
 - If they are the same please repeat section "Network Connection Setup" from this README
 
 ## Future Work
