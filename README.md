@@ -197,13 +197,13 @@ If it isnt there then in order try:
 There are a number of options in order to get the quori project working in ROS2.
 
 1. Continue to migrate the ROS1 packages to ROS2. https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html
-2. New clean build creating a quori system in ROS2 that can follow a new architecture different from the original.
+2. New clean build creating a quori system in ROS2 that can follow a new architecture which can be different from the original.
 3. Hybrid with bridge. With ROS2 Nodes communicating with ROS1 nodes over topics.
 
 Not all ROS topics are on the bridge. (solutions)
-1. Figure out how to write a cutom topic.
+1. Figure out how to write a costum topic.
 2. Remap the topics.
-3. Build a cotum bridge.
+3. Build a costum bridge.
 4. Galactic computer. 
 
 ## Troubleshoot
@@ -248,7 +248,7 @@ $ ros2 run ros1_bridge dynamic_bridge --print-pairs | grep -i grid_map
 $ sudo apt -y install ros-humble-grid-map
 ```
 
-## Refrences
+## References
 - https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder/
 - https://github.com/ros2/ros1_bridge
 - https://docs.ros.org/en/humble/How-To-Guides/Using-ros1_bridge-Jammy-upstream.html
