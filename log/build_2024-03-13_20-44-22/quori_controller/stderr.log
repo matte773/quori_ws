@@ -1,0 +1,155 @@
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Quori.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Quori.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+    3 | #include [01;31m[K<hardware_interface/base_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Quori.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Quori.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+    3 | #include [01;31m[K<hardware_interface/base_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/quori_controller_node.dir/build.make:90: CMakeFiles/quori_controller_node.dir/src/Quori.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/quori_controller_init.dir/build.make:90: CMakeFiles/quori_controller_init.dir/src/Quori.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:16:1:[m[K [01;31m[Kerror: [m[Kdefinition of explicitly-defaulted ‘[01m[Kquori_controller::Joint::Joint()[m[K’
+   16 | [01;31m[KJoint[m[K::Joint()
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:12:5:[m[K [01;36m[Knote: [m[K‘[01m[Kquori_controller::Joint::Joint()[m[K’ explicitly defaulted here
+   12 |     [01;36m[KJoint[m[K() = default;
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:37:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const quori_controller::Joint&)[m[K’
+   37 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:35:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const quori_controller::Joint&)[m[K’ previously defined here
+   35 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:16:1:[m[K [01;31m[Kerror: [m[Kdefinition of explicitly-defaulted ‘[01m[Kquori_controller::Joint::Joint()[m[K’
+   16 | [01;31m[KJoint[m[K::Joint()
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:12:5:[m[K [01;36m[Knote: [m[K‘[01m[Kquori_controller::Joint::Joint()[m[K’ explicitly defaulted here
+   12 |     [01;36m[KJoint[m[K() = default;
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:49:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const Ptr&)[m[K’
+   49 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint::Ptr &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:47:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const Ptr&)[m[K’ previously defined here
+   47 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint::Ptr &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:37:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const quori_controller::Joint&)[m[K’
+   37 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:35:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const quori_controller::Joint&)[m[K’ previously defined here
+   35 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:61:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const ConstPtr&)[m[K’
+   61 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint::ConstPtr &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:54:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const ConstPtr&)[m[K’ previously defined here
+   54 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint::ConstPtr &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:49:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const Ptr&)[m[K’
+   49 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint::Ptr &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:47:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const Ptr&)[m[K’ previously defined here
+   47 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint::Ptr &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:61:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::ostream& operator<<(std::ostream&, const ConstPtr&)[m[K’
+   61 | std::ostream &[01;31m[Koperator[m[K <<(std::ostream &o, const Joint::ConstPtr &joint)
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.cpp:1[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Joint.hpp:54:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream& operator<<(std::ostream&, const ConstPtr&)[m[K’ previously defined here
+   54 | std::ostream &[01;36m[Koperator[m[K<<(std::ostream &o, const quori_controller::Joint::ConstPtr &joint)
+      |               [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/quori_controller_init.dir/build.make:132: CMakeFiles/quori_controller_init.dir/src/Joint.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/quori_controller_node.dir/build.make:132: CMakeFiles/quori_controller_node.dir/src/Joint.cpp.o] Error 1
+In file included from [01m[K/home/jorge/quori_ws/src/quori_controller/src/quori_controller_node.cpp:5[m[K:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/Quori.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+    3 | #include [01;31m[K<hardware_interface/base_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/quori_controller_node.dir/build.make:76: CMakeFiles/quori_controller_node.dir/src/quori_controller_node.cpp.o] Error 1
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kquori_controller::SerialDevice::InitializationInfo quori_controller::SerialDevice::initialize()[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:98:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   98 |   size_t [01;35m[Kcount[m[K = write(initialize);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:101:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  101 |   bool [01;35m[Kexit[m[K = false;
+      |        [01;35m[K^~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::setPositions(const double*, std::size_t)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:150:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kseconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |   auto [01;35m[Kseconds[m[K = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::set(const double*, const double*, std::size_t)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:181:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  181 |   auto [01;35m[Kres[m[K = *reinterpret_cast<const quori::message::SetPositionsRes *>(unprocessed_.data());
+      |        [01;35m[K^~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::getState(quori::message::States&)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:189:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  189 |   const auto [01;35m[Kstart[m[K = std::chrono::system_clock::now();
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:195:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kend[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  195 |   const auto [01;35m[Kend[m[K = std::chrono::system_clock::now();
+      |              [01;35m[K^~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kquori_controller::SerialDevice::InitializationInfo quori_controller::SerialDevice::initialize()[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:98:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   98 |   size_t [01;35m[Kcount[m[K = write(initialize);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:101:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  101 |   bool [01;35m[Kexit[m[K = false;
+      |        [01;35m[K^~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::setPositions(const double*, std::size_t)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:150:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kseconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |   auto [01;35m[Kseconds[m[K = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::set(const double*, const double*, std::size_t)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:181:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  181 |   auto [01;35m[Kres[m[K = *reinterpret_cast<const quori::message::SetPositionsRes *>(unprocessed_.data());
+      |        [01;35m[K^~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K In member function ‘[01m[Kvoid quori_controller::SerialDevice::getState(quori::message::States&)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:189:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  189 |   const auto [01;35m[Kstart[m[K = std::chrono::system_clock::now();
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:195:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kend[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  195 |   const auto [01;35m[Kend[m[K = std::chrono::system_clock::now();
+      |              [01;35m[K^~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K At global scope:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:15:31:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::SET_POSITIONS[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |   std::array<std::uint8_t, 4> [01;35m[KSET_POSITIONS[m[K { 2, 0, 0, 0 };
+      |                               [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:14:31:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::INITIALIZE[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |   std::array<std::uint8_t, 4> [01;35m[KINITIALIZE[m[K { 1, 0, 0, 0, };
+      |                               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:[m[K At global scope:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:15:31:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::SET_POSITIONS[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |   std::array<std::uint8_t, 4> [01;35m[KSET_POSITIONS[m[K { 2, 0, 0, 0 };
+      |                               [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/SerialDevice.cpp:14:31:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::INITIALIZE[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |   std::array<std::uint8_t, 4> [01;35m[KINITIALIZE[m[K { 1, 0, 0, 0, };
+      |                               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:191:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 | int main([01;35m[Kint argc[m[K, char *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:191:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 | int main(int argc, [01;35m[Kchar *argv[][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:[m[K In function ‘[01m[Kstd::ostream& operator<<(std::ostream&, Microcontroller)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:170:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  170 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:[m[K In function ‘[01m[Kstd::string microcontroller_filename(Microcontroller)[m[K’:
+[01m[K/home/jorge/quori_ws/src/quori_controller/src/init.cpp:182:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  182 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/quori_controller_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/quori_controller_init.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

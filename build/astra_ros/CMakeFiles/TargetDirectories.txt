@@ -1,0 +1,9 @@
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/uninstall.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/astra_ros_uninstall.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/test.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/edit_cache.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/rebuild_cache.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/list_install_components.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/install.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/install/local.dir
+/home/jorge/quori_ws/build/astra_ros/CMakeFiles/install/strip.dir

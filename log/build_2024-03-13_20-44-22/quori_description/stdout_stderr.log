@@ -1,0 +1,88 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jorge/quori_ws/build/quori_description
+-- Install configuration: ""
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_standalone.xacro
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.gv
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_kinematics.xacro
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.urdf
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.pdf
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.xacro
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori_kinematics.xacro
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori_standalone.xacro
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_kinematics.urdf
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Arm+gear_right.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/COLCON_IGNORE
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.sh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/.colcon_install_layout
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.bash
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.sh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.ps1
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/_local_setup_util_ps1.py
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.zsh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.bash
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.zsh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.ps1
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/_local_setup_util_sh.py
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/build
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/build/COLCON_IGNORE
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/build/.built_by
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/COLCON_IGNORE
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest_build
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/build_2024-03-10_16-14-19
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/build_2024-03-10_16-14-19/logger_all.log
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/build_2024-03-10_16-14-19/events.log
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Lower_Arm_right.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/180915_Lower_Torso.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Helmet_Duripod.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Arm+gear_left.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Lower_Arm_left.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Torso+Waist.dae
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/package_run_dependencies/quori_description
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/parent_prefix_path/quori_description
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/ament_prefix_path.sh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/ament_prefix_path.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/path.sh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/path.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.bash
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.sh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.zsh
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/package.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/packages/quori_description
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/cmake/quori_descriptionConfig.cmake
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/cmake/quori_descriptionConfig-version.cmake
+-- Installing: /home/jorge/quori_ws/install/quori_description/share/quori_description/package.xml

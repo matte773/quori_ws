@@ -1,0 +1,9 @@
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/uninstall.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/quori_description_uninstall.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/test.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/edit_cache.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/rebuild_cache.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/list_install_components.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/install.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/install/local.dir
+/home/jorge/quori_ws/build/quori_description/CMakeFiles/install/strip.dir

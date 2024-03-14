@@ -1,0 +1,4 @@
+source;share/quori_teleop/local_setup.bash
+source;share/quori_teleop/local_setup.dsv
+source;share/quori_teleop/local_setup.sh
+source;share/quori_teleop/local_setup.zsh

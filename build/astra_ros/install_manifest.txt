@@ -1,0 +1,15 @@
+/home/jorge/quori_ws/install/astra_ros/share/ament_index/resource_index/package_run_dependencies/astra_ros
+/home/jorge/quori_ws/install/astra_ros/share/ament_index/resource_index/parent_prefix_path/astra_ros
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/environment/ament_prefix_path.sh
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/environment/ament_prefix_path.dsv
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/environment/path.sh
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/environment/path.dsv
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/local_setup.bash
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/local_setup.sh
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/local_setup.zsh
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/local_setup.dsv
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/package.dsv
+/home/jorge/quori_ws/install/astra_ros/share/ament_index/resource_index/packages/astra_ros
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/cmake/astra_rosConfig.cmake
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/cmake/astra_rosConfig-version.cmake
+/home/jorge/quori_ws/install/astra_ros/share/astra_ros/package.xml

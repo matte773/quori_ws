@@ -1,0 +1,56 @@
+[0.232s] Invoking command in '/home/jorge/quori_ws/build/respeaker_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/respeaker_ros -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/respeaker_ros
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.655s] -- The CXX compiler identification is GNU 11.4.0
+[0.701s] -- Detecting C compiler ABI info
+[0.881s] -- Detecting C compiler ABI info - done
+[0.918s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.918s] -- Detecting C compile features
+[0.920s] -- Detecting C compile features - done
+[0.944s] -- Detecting CXX compiler ABI info
+[1.157s] -- Detecting CXX compiler ABI info - done
+[1.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.202s] -- Detecting CXX compile features
+[1.203s] -- Detecting CXX compile features - done
+[1.215s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.754s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.139s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.331s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.365s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.398s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.819s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.837s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.267s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.629s] -- Found Threads: TRUE  
+[4.231s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.474s] -- Added test 'lint_cmake' to check CMake code style
+[4.477s] -- Added test 'xmllint' to check XML markup files
+[4.482s] -- Configuring done (4.1s)
+[4.491s] -- Generating done (0.0s)
+[4.495s] -- Build files have been written to: /home/jorge/quori_ws/build/respeaker_ros
+[4.669s] Invoked command in '/home/jorge/quori_ws/build/respeaker_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/respeaker_ros -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/respeaker_ros
+[4.672s] Invoking command in '/home/jorge/quori_ws/build/respeaker_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/respeaker_ros -- -j20 -l20
+[4.791s] Invoked command in '/home/jorge/quori_ws/build/respeaker_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/respeaker_ros -- -j20 -l20
+[4.919s] Invoking command in '/home/jorge/quori_ws/build/respeaker_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/respeaker_ros
+[5.006s] -- Install configuration: ""
+[5.010s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/ament_index/resource_index/package_run_dependencies/respeaker_ros
+[5.011s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/ament_index/resource_index/parent_prefix_path/respeaker_ros
+[5.012s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/environment/ament_prefix_path.sh
+[5.014s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/environment/ament_prefix_path.dsv
+[5.014s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/environment/path.sh
+[5.017s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/environment/path.dsv
+[5.019s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/local_setup.bash
+[5.019s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/local_setup.sh
+[5.021s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/local_setup.zsh
+[5.022s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/local_setup.dsv
+[5.023s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/package.dsv
+[5.024s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/ament_index/resource_index/packages/respeaker_ros
+[5.025s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/cmake/respeaker_rosConfig.cmake
+[5.026s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/cmake/respeaker_rosConfig-version.cmake
+[5.027s] -- Installing: /home/jorge/quori_ws/install/respeaker_ros/share/respeaker_ros/package.xml
+[5.426s] Invoked command in '/home/jorge/quori_ws/build/respeaker_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/respeaker_ros

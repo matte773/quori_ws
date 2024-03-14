@@ -1,0 +1,9 @@
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/uninstall.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/quori_teleop_uninstall.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/test.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/edit_cache.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/rebuild_cache.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/list_install_components.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/install.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/install/local.dir
+/home/jorge/quori_ws/build/quori_teleop/CMakeFiles/install/strip.dir

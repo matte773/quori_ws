@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jorge/quori_ws/build/quori_work
+-- Install configuration: ""
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/package_run_dependencies/quori_work
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/parent_prefix_path/quori_work
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/environment/ament_prefix_path.sh
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/environment/ament_prefix_path.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/environment/path.sh
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/environment/path.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.bash
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.sh
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.zsh
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/package.dsv
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/packages/quori_work
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/cmake/quori_workConfig.cmake
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/cmake/quori_workConfig-version.cmake
+-- Installing: /home/jorge/quori_ws/install/quori_work/share/quori_work/package.xml

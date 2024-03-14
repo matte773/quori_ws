@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>quori_controller</name>
+  <version>0.0.1</version>
+  <description>The quori_controller package for controlling the Quori robot</description>
+
+  <maintainer email="braden@semio.ai">Braden McDorman</maintainer>
+  <license>BSD</license>
+
+  <!-- Example of website and repository URL -->
+  <!-- <url type="website">http://wiki.ros.org/quori_controller</url> -->
+  <!-- <url type="repository">http://github.com/YourOrganization/quori_controller</url> -->
+
+  <!-- Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>hardware_interface</depend>
+  <depend>controller_manager</depend>
+  <depend>rclcpp</depend>
+  <!-- Add dependencies as required -->
+  <!-- <depend>your_dependency_package</depend> -->
+
+  <!-- dynamic_reconfigure is not used in ROS 2, parameters and parameter services are used instead -->
+  <!-- Consider removing this dependency or replacing it with ROS 2 equivalents if needed -->
+  <!-- <exec_depend>dynamic_reconfigure</exec_depend> -->
+
+  <export>
+    <!-- Information to embed into the package manifest -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+source;share/respeaker_ros/hook/cmake_prefix_path.ps1
+source;share/respeaker_ros/hook/cmake_prefix_path.dsv
+source;share/respeaker_ros/hook/cmake_prefix_path.sh
+source;share/respeaker_ros/local_setup.bash
+source;share/respeaker_ros/local_setup.dsv
+source;share/respeaker_ros/local_setup.ps1
+source;share/respeaker_ros/local_setup.sh
+source;share/respeaker_ros/local_setup.zsh
