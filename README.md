@@ -4,10 +4,10 @@ This is an initial attempt to convert the quori_ros running in ROS Noetic to ROS
 
 ## Prerequisites
 
-The ROS2 workspace is compatible with Ubuntu 22.04 / ROS Humble.
-Git must be installed on the ROS2 system.
-The ROS1 workspace is compatible with Ubuntu 20.04 / ROS Noetic.
-A working internet connection that allows for ROS communication past the firewall. 
+- The ROS2 workspace is compatible with Ubuntu 22.04 / ROS Humble.
+- Git must be installed on the ROS2 system.
+- The ROS1 workspace is compatible with Ubuntu 20.04 / ROS Noetic.
+- A working internet connection that allows for ROS communication past the firewall. 
 
 ## Setup
 
