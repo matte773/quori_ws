@@ -13,7 +13,14 @@ A working internet connection that allows for ROS communication past the firewal
 There are a number of options in order to get the quori project working in ROS2.
 
 1. Continue to migrate the ROS1 packages to ROS2. https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html
- 
+2. New clean build creating a quori system in ROS2 that can follow a new architecture different from the original.
+3. Hybrid wit bridge. With ROS2 Nodes communicating with ROS1 nodes over topics.
+
+Not all ROS topics are on the bridge. (solutions)
+1. Figure out how to write a cutom topic.
+2. Remap the topics.
+3. Build a cotum bridge.
+4. Galactic computer. 
 
 
 
