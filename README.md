@@ -251,4 +251,5 @@ $ sudo apt -y install ros-humble-grid-map
 ## Refrences
 - https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder/
 - https://github.com/ros2/ros1_bridge
-- 
+- https://docs.ros.org/en/humble/How-To-Guides/Using-ros1_bridge-Jammy-upstream.html
+- https://index.ros.org/p/ros1_bridge/
