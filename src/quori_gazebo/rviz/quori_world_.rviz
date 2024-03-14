@@ -1,0 +1,229 @@
+Panel Configurations:
+  - Type: rviz_common/Displays
+    Properties:
+      Name: Displays
+      Help Height: 78
+      Property Tree Widget:
+        Expanded Items:
+          - /Global Options
+          - /Status
+          - /Quori
+          - /TF2
+        Splitter Ratio: 0.5
+      Tree Height: 657
+
+  - Class: rviz_common/SelectionPanel
+    Properties:
+      Name: Selection
+
+  - Class: rviz_common/Tool Properties
+    Properties:
+      Name: Tool Properties
+      Expanded Tools:
+        - /2D Pose Estimate
+        - /2D Nav Goal
+        - /Publish Point
+      Splitter Ratio: 0.588679
+
+  - Class: rviz_common/Views
+    Properties:
+      Name: Views
+      Expanded Items:
+        - /Current View
+      Splitter Ratio: 0.5
+
+  - Class: rviz_common/TimePanel
+    Properties:
+      Name: Time
+      Sync Mode: 0
+      Sync Source: ""
+
+Visualization Manager:
+  Displays:
+    - Type: rviz_default_plugins/Grid
+      Properties:
+        Alpha: 0.5
+        Cell Size: 1
+        Color: 160, 160, 164
+        Enabled: true
+        Line Style: Lines
+        Line Width: 0.03
+        Name: Grid
+        Plane: XY
+        Plane Cell Count: 10
+        Reference Frame: world
+
+    - Type: rviz_default_plugins/RobotModel
+      Properties:
+        Name: Quori
+        Robot Description: robot_description
+        TF Prefix: ""
+        Visual Enabled: true
+        Collision Enabled: false
+        Alpha: 1
+        Update Interval: 0
+        Enabled: true
+        Links:
+          quori/base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/body_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/head:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+                  Links:
+          quori/base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/body_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/head:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/head_camera:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/head_camera_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/head_mic:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/l_arm_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/l_arm_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/l_arm_upper2lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/l_shoulder:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/r_arm_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/r_arm_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/r_arm_upper2lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          quori/r_shoulder:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/base_laser_scanner:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/base_link_diff:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/l_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/r_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/turret_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          ramsis/wheel_axle:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+
+
+    - Type: rviz_default_plugins/Displays/Image
+      Properties:
+        Name: Image
+        Image Topic: /camera/image_raw  # Adjust according to your ROS2 topic
+        Enabled: false
+        Transport Hint: raw
+        Queue Size: 2
+        Normalize Range: true
+        Min Value: 0
+        Max Value: 1
+        Median window: 5
+        Unreliable: false
+
+Global Options:
+  Properties:
+    Background Color: 85, 87, 83
+    Fixed Frame: world
+    Frame Rate: 30
+
+Tools:
+  - Type: rviz_default_plugins/Tools/Interact
+    Properties: 
+      Hide Inactive Objects: true
+  - Type: rviz_default_plugins/Tools/MoveCamera
+  - Type: rviz_default_plugins/Tools/Select
+  - Type: rviz_default_plugins/Tools/FocusCamera
+  - Type: rviz_default_plugins/Tools/Measure
+  - Type: rviz_default_plugins/Tools/SetInitialPose
+    Properties:
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+      Theta std deviation: 0.261799
+  - Type: rviz_default_plugins/Tools/SetGoal
+    Properties:
+      Topic: /move_base_simple/goal
+
+Preferences:
+  PromptSaveOnExit: true
+
+Toolbars:
+  toolButtonStyle: 2
+
+Window Geometry:
+  # This part is heavily dependent on the specific layout and size of your RViz2 window and may require manual adjustment.
+  Height: 960
+  Width: 1208
+  X: 72
+  Y: 27
+  Displays:
+    collapsed: false
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+

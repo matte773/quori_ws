@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<robot name="quori" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="file:///home/jorge/quori_ws/src/quori_simulation/urdf/quori_kinematics.xacro" />
+  <quori_kinematics />
+</robot>

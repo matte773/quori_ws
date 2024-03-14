@@ -1,0 +1,12 @@
+--quori gazebo--
+colcon build
+source install/setup.bash
+source ~/ros2_ws/install/setup.bash
+ros2 launch quori_gazebo empty_world.launch.py
+
+--gazebo log files----
+cd ~/.gazebo
+
+--change from .xacro to .urdf----
+xacro quori.xacro > quori.urdf
+
