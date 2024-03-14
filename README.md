@@ -7,6 +7,7 @@ This is an initial attempt to convert the quori_ros running in ROS to ROS2. Curr
 The package is compatible with Ubuntu 22.04 / ROS Humble.
 
 **Future Work**
+
 There are a number of options in order to get the quori project working in ROS2.
 
 1. Continue to migrate the ROS1 packages to ROS2. https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html
