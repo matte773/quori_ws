@@ -1,15 +1,15 @@
- **quori_ws**
+# quori_ws
 
 This is an initial attempt to convert the quori_ros running in ROS Noetic to ROS2 Humble. Currently quori_gazebo, quori_description and quori_controller are the only packages converted to ROS2. The rest of the ROS2 packages are empty. quori_controller does not compile to see the issues view the README in the package folder.
 
-**Prerequisites**
+## Prerequisites
 
 The ROS2 workspace is compatible with Ubuntu 22.04 / ROS Humble.
 Git must be installed on the ROS2 system.
 The ROS1 workspace is compatible with Ubuntu 20.04 / ROS Noetic.
 A working internet connection that allows for ROS communication past the firewall. 
 
-**Setup**
+## Setup
 
 To begin this setup we will start with the Ubuntu 22.04 / ROS Humble system. In a terminal run: 
 
@@ -25,7 +25,7 @@ The following section heavily relies on TommyChangUMD's ros-humble-ros1-bridge-b
 
 The following docker build takes some time. I have had up to 22 minute build times with a 8-core CPU and 32GB of memory. 
 
-## How to create this builder docker image:
+### How to create this builder docker image:
 
 ``` bash
   git clone https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder.git
@@ -47,8 +47,8 @@ Alternative builds:
 ```
 *Note: Don't forget to install the necessary `ros-humble-grid-map` packages on your ROS2 Humble if you choose to build the bridge with the `grid-map` support added.
 
-## How to create ros-humble-ros1-bridge package:
-###  0.) Start from the latest Ubuntu 22.04 ROS 2 Humble Desktop system, create the "ros-humble-ros1-bridge/" ROS2 package:
+### How to create ros-humble-ros1-bridge package:
+####  0.) Start from the latest Ubuntu 22.04 ROS 2 Humble Desktop system, create the "ros-humble-ros1-bridge/" ROS2 package:
 
 ``` bash
     cd ~/
@@ -71,8 +71,8 @@ Note2: We don't need the builder image anymore, to delete it, do:
 ``` bash
     docker rmi ros-humble-ros1-bridge-builder
 ```
-## How to use ros-humble-ros1-bridge:
-###  1.) First start a ROS1 Noetic docker and bring up a GUI terminal, something like:
+### How to use ros-humble-ros1-bridge:
+####  1.) First start a ROS1 Noetic docker and bring up a GUI terminal, something like:
 
 ``` bash
   rocker --x11 --user --home --privileged \
@@ -85,14 +85,14 @@ You may need to install rocker first:
 ```
 Note: It's important to share the host's network and the `/dev/shm/` directory with the container.
 
-###  2.) Then, start "roscore" inside the ROS1 Noetic docker container
+####  2.) Then, start "roscore" inside the ROS1 Noetic docker container
 
 ``` bash
   source /opt/ros/noetic/setup.bash
   roscore
 ```
 
-###  3.) Now, from the Ubuntu 22.04 ROS2 Humble system, start the ros1 bridge node.
+####  3.) Now, from the Ubuntu 22.04 ROS2 Humble system, start the ros1 bridge node.
 
 ``` bash
   source /opt/ros/humble/setup.bash
@@ -101,14 +101,14 @@ Note: It's important to share the host's network and the `/dev/shm/` directory w
 ```
 *Note: We need to source `local_setup.bash` and NOT `setup.bash` because the bridge was compiled in a docker container that may have different underlay locations.  Besides, we don't need to source these underlays in the host system again.
 
-###  3.) Back to the ROS1 Noetic docker container, run in another terminal tab:
+####  3.) Back to the ROS1 Noetic docker container, run in another terminal tab:
 
 ``` bash
   source /opt/ros/noetic/setup.bash
   rosrun rospy_tutorials talker
 ```
 
-###  4.) Finally, from the Ubuntu 22.04 ROS2 Humble system:
+####  4.) Finally, from the Ubuntu 22.04 ROS2 Humble system:
 
 ``` bash
   source /opt/ros/humble/setup.bash
@@ -117,7 +117,7 @@ Note: It's important to share the host's network and the `/dev/shm/` directory w
 Note: If you have run into any issues to this point please see the troubleshooting and reference sections at the bottom of this README.
 
 
-**Future Work**
+## Future Work
 
 There are a number of options in order to get the quori project working in ROS2.
 
@@ -173,7 +173,7 @@ $ ros2 run ros1_bridge dynamic_bridge --print-pairs | grep -i grid_map
 $ sudo apt -y install ros-humble-grid-map
 ```
 
-**Refrences**
+## Refrences
 - https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder/
 - https://github.com/ros2/ros1_bridge
 - 
