@@ -1,0 +1,2 @@
+Invoking command in '/home/jorge/quori_ws/build/quori_description': /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_description -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_description
+Invoked command in '/home/jorge/quori_ws/build/quori_description' returned '1': /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_description -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_description

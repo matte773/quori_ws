@@ -1,0 +1,22 @@
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/empty_world.launch.py
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/robot_state_publisher.launch copy.py
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/robot_state_publisher.launch.py
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/spawn_quori.launch.py
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/spawn_quori.launch_old.py
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//worlds/empty.world
+/home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/package_run_dependencies/quori_gazebo
+/home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/parent_prefix_path/quori_gazebo
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/ament_prefix_path.sh
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/ament_prefix_path.dsv
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/path.sh
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/path.dsv
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.bash
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.sh
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.zsh
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.dsv
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/package.dsv
+/home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/packages/quori_gazebo
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/quori_gazeboConfig.cmake
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/quori_gazeboConfig-version.cmake
+/home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/package.xml

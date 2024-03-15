@@ -1,0 +1,15 @@
+/home/jorge/quori_ws/install/quori_teleop/share/ament_index/resource_index/package_run_dependencies/quori_teleop
+/home/jorge/quori_ws/install/quori_teleop/share/ament_index/resource_index/parent_prefix_path/quori_teleop
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/environment/ament_prefix_path.sh
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/environment/ament_prefix_path.dsv
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/environment/path.sh
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/environment/path.dsv
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/local_setup.bash
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/local_setup.sh
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/local_setup.zsh
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/local_setup.dsv
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/package.dsv
+/home/jorge/quori_ws/install/quori_teleop/share/ament_index/resource_index/packages/quori_teleop
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/cmake/quori_teleopConfig.cmake
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/cmake/quori_teleopConfig-version.cmake
+/home/jorge/quori_ws/install/quori_teleop/share/quori_teleop/package.xml

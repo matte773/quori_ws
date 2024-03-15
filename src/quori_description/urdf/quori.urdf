@@ -13,7 +13,7 @@
     <visual>
       <origin rpy="0 0 -1.57079632679" xyz="0.02 0 -0.2007174"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/180915_Lower_Torso.dae"/>
+        <mesh filename="model://quori/meshes/180915_Lower_Torso.dae"/>
       </geometry>
     </visual>
   </link>
@@ -26,7 +26,7 @@
     <visual>
       <origin rpy="0 0 -1.57079632679" xyz="0.02 0 -0.5476974"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Upper_Torso+Waist.dae"/>
+        <mesh filename="model://quori/meshes/0917_Upper_Torso+Waist.dae"/>
       </geometry>
     </visual>
   </link>
@@ -60,7 +60,7 @@
     <visual>
       <origin rpy="-1.57079632679 0 0" xyz="0.165 -0.9765 -0.137"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Upper_Arm+gear_right.dae"/>
+        <mesh filename="model://quori/meshes/0917_Upper_Arm+gear_right.dae"/>
       </geometry>
     </visual>
   </link>
@@ -98,7 +98,7 @@
     <visual>
       <origin rpy="1.570759635 1.570759635 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Lower_Arm_right.dae"/>
+        <mesh filename="model://quori/meshes/0917_Lower_Arm_right.dae"/>
       </geometry>
     </visual>
   </link>
@@ -130,7 +130,7 @@
     <visual>
       <origin rpy="-1.57079632679 0 -3.14" xyz="0.165 0.9765 -0.137"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Upper_Arm+gear_left.dae"/>
+        <mesh filename="model://quori/meshes/0917_Upper_Arm+gear_left.dae"/>
       </geometry>
     </visual>
   </link>
@@ -168,7 +168,7 @@
     <visual>
       <origin rpy="-1.570759635 -1.570759635 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Lower_Arm_left.dae"/>
+        <mesh filename="model://quori/meshes/0917_Lower_Arm_left.dae"/>
       </geometry>
     </visual>
   </link>
@@ -186,7 +186,7 @@
     <visual>
       <origin rpy="0 0 -1.57079632679" xyz="0.01 0 -1.11"/>
       <geometry>
-        <mesh filename="file:///home/jorge/quori_ws/src/quori_description/meshes/0917_Helmet_Duripod.dae"/>
+        <mesh filename="model://quori/meshes/0917_Helmet_Duripod.dae"/>
       </geometry>
     </visual>
   </link>

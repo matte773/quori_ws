@@ -13,10 +13,10 @@ def generate_launch_description():
         'quori.urdf'
     )
 
-    # Path to the quori mesh files
+    #Path to the quori mesh files
     quori_mesh_path = os.path.join(
         get_package_share_directory('quori_description'),
-        'models', 'quori', 'meshes'
+       'models', 'quori', 'meshes'
     )
 
     # Read the URDF file

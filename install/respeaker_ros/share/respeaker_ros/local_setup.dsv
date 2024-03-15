@@ -1,2 +1,1 @@
-source;share/respeaker_ros/environment/ament_prefix_path.sh
-source;share/respeaker_ros/environment/path.sh
+/home/jorge/quori_ws/build/respeaker_ros/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,88 @@
+[0.828s] Invoking command in '/home/jorge/quori_ws/build/quori_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_description
+[0.912s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.425s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.485s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.504s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.687s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.777s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.827s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.829s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.971s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.971s] -- Added test 'lint_cmake' to check CMake code style
+[1.973s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.977s] -- Added test 'xmllint' to check XML markup files
+[1.979s] -- Configuring done (1.1s)
+[1.985s] -- Generating done (0.0s)
+[1.986s] -- Build files have been written to: /home/jorge/quori_ws/build/quori_description
+[2.411s] Invoked command in '/home/jorge/quori_ws/build/quori_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_description
+[2.411s] Invoking command in '/home/jorge/quori_ws/build/quori_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/quori_description -- -j20 -l20
+[2.475s] Invoked command in '/home/jorge/quori_ws/build/quori_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/quori_description -- -j20 -l20
+[2.534s] Invoking command in '/home/jorge/quori_ws/build/quori_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/quori_description
+[2.576s] -- Install configuration: ""
+[2.577s] -- Execute custom install script
+[2.577s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.gv
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.pdf
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.urdf
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori.xacro
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori_kinematics.xacro
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/quori_standalone.xacro
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_kinematics.urdf
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_kinematics.xacro
+[2.578s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//urdf/ramsis_standalone.xacro
+[2.579s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[2.579s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[2.579s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[2.579s]   Use the cmake_policy command to set the policy and suppress this warning.
+[2.579s] Call Stack (most recent call first):
+[2.579s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[2.579s]   cmake_install.cmake:46 (include)
+[2.579s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.579s] [0m
+[2.579s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Helmet_Duripod.dae
+[2.579s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Lower_Arm_left.dae
+[2.579s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Lower_Arm_right.dae
+[2.579s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Arm+gear_left.dae
+[2.579s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Arm+gear_right.dae
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/0917_Upper_Torso+Waist.dae
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/180915_Lower_Torso.dae
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/build/.built_by
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/build/COLCON_IGNORE
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/.colcon_install_layout
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/COLCON_IGNORE
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/_local_setup_util_ps1.py
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/_local_setup_util_sh.py
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.bash
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.ps1
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.sh
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/local_setup.zsh
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.bash
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.ps1
+[2.580s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.sh
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/install/setup.zsh
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/COLCON_IGNORE
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/build_2024-03-10_16-14-19/events.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/build_2024-03-10_16-14-19/logger_all.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest/events.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest/logger_all.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest_build/events.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description//meshes/log/latest_build/logger_all.log
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/package_run_dependencies/quori_description
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/parent_prefix_path/quori_description
+[2.581s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/ament_prefix_path.sh
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/ament_prefix_path.dsv
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/path.sh
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/environment/path.dsv
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.bash
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.sh
+[2.582s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.zsh
+[2.583s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/local_setup.dsv
+[2.583s] -- Symlinking: /home/jorge/quori_ws/install/quori_description/share/quori_description/package.dsv
+[2.587s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/ament_index/resource_index/packages/quori_description
+[2.587s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/cmake/quori_descriptionConfig.cmake
+[2.588s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/cmake/quori_descriptionConfig-version.cmake
+[2.588s] -- Up-to-date symlink: /home/jorge/quori_ws/install/quori_description/share/quori_description/package.xml
+[2.597s] Invoked command in '/home/jorge/quori_ws/build/quori_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/quori_description

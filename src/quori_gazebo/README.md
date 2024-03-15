@@ -35,7 +35,9 @@ source install/setup.bash
 source ~/ros2_ws/install/setup.bash
 
 #Launch command
-ros2 launch quori_gazebo empty_world.launch.py #launches quori in an empty world
+#launches quori in an empty world
+
+ros2 launch quori_gazebo empty_world.launch.py 
 
 #Gazebo Log Files Location
 cd ~/.gazebo

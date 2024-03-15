@@ -1,0 +1,157 @@
+[0.111s] Invoking command in '/home/jorge/quori_ws/build/quori_gazebo': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_gazebo
+[0.272s] -- The C compiler identification is GNU 11.4.0
+[0.393s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.598s] -- Detecting C compile features
+[0.598s] -- Detecting C compile features - done
+[0.618s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.778s] -- Detecting CXX compile features
+[0.779s] -- Detecting CXX compile features - done
+[0.790s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.041s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.325s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.420s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.449s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.641s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.648s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.834s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.005s] -- Found Threads: TRUE  
+[2.254s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.276s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.278s] -- Checking for module 'bullet>=2.82'
+[2.293s] --   Found bullet, version 3.05
+[2.421s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.478s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.520s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.577s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.602s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.612s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.622s] -- Searching for dependencies of ignition-math6
+[2.624s] -- Looking for OGRE...
+[2.625s] -- OGRE_PREFIX_WATCH changed.
+[2.631s] -- Checking for module 'OGRE'
+[2.645s] --   Found OGRE, version 1.9.0
+[2.682s] -- Found Ogre Ghadamon (1.9.0)
+[2.698s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.713s] -- Looking for OGRE_Paging...
+[2.728s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.728s] -- Looking for OGRE_Terrain...
+[2.742s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.742s] -- Looking for OGRE_Property...
+[2.760s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.760s] -- Looking for OGRE_RTShaderSystem...
+[2.775s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.775s] -- Looking for OGRE_Volume...
+[2.789s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.789s] -- Looking for OGRE_Overlay...
+[2.803s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.093s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.098s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.099s] -- Searching for dependencies of ignition-transport8
+[3.124s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.140s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.146s] -- Checking for module 'libzmq >= 4'
+[3.164s] --   Found libzmq , version 4.3.4
+[3.201s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.208s] -- Checking for module 'uuid'
+[3.224s] --   Found uuid, version 2.37.2
+[3.257s] -- Found UUID: TRUE  
+[3.264s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.264s] -- Searching for dependencies of ignition-msgs5
+[3.293s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.299s] -- Checking for module 'tinyxml2'
+[3.314s] --   Found tinyxml2, version 9.0.0
+[3.347s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.352s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.353s] -- Searching for dependencies of ignition-common3
+[3.354s] -- Looking for dlfcn.h - found
+[3.356s] -- Looking for libdl - found
+[3.359s] -- Found DL: TRUE  
+[3.379s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.380s] -- Searching for <ignition-common3> component [graphics]
+[3.385s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.385s] -- Searching for dependencies of ignition-common3-graphics
+[3.385s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.391s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.391s] -- Searching for dependencies of ignition-fuel_tools4
+[3.487s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.493s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[3.493s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.493s]   CMake.
+[3.493s] 
+[3.493s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.494s]   CMake that the project does not need compatibility with older versions.
+[3.494s] Call Stack (most recent call first):
+[3.494s]   /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+[3.494s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)
+[3.494s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)
+[3.494s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[3.494s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[3.494s]   /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.494s]   /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[3.494s]   CMakeLists.txt:11 (find_package)
+[3.494s] 
+[3.494s] [0m
+[3.500s] -- Checking for module 'jsoncpp'
+[3.516s] --   Found jsoncpp, version 1.9.5
+[3.548s] -- Found JSONCPP: TRUE  
+[3.558s] -- Checking for module 'libzip'
+[3.575s] --   Found libzip, version 1.7.3
+[3.608s] -- Found ZIP: TRUE  
+[3.609s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.609s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.610s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.616s] -- Gazebo version: 11.10
+[3.617s] -- Checking for module 'tbb'
+[3.632s] --   Found tbb, version 2021.5.0
+[3.678s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[3.679s] -- Found quori_description: 0.0.0 (/home/jorge/quori_ws/install/quori_description/share/quori_description/cmake)
+[3.685s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.818s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.826s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.828s] -- Added test 'lint_cmake' to check CMake code style
+[3.830s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.833s] -- Added test 'xmllint' to check XML markup files
+[3.836s] -- Configuring done (3.7s)
+[3.842s] -- Generating done (0.0s)
+[3.845s] -- Build files have been written to: /home/jorge/quori_ws/build/quori_gazebo
+[3.865s] Invoked command in '/home/jorge/quori_ws/build/quori_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake /home/jorge/quori_ws/src/quori_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jorge/quori_ws/install/quori_gazebo
+[3.867s] Invoking command in '/home/jorge/quori_ws/build/quori_gazebo': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/quori_gazebo -- -j20 -l20
+[3.932s] Invoked command in '/home/jorge/quori_ws/build/quori_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --build /home/jorge/quori_ws/build/quori_gazebo -- -j20 -l20
+[3.998s] Invoking command in '/home/jorge/quori_ws/build/quori_gazebo': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/quori_gazebo
+[4.035s] -- Install configuration: ""
+[4.036s] -- Execute custom install script
+[4.037s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/empty_world.launch.py
+[4.040s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/robot_state_publisher.launch.py
+[4.043s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/spawn_quori.launch.py
+[4.047s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//launch/spawn_quori.launch_old.py
+[4.051s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo//worlds/empty.world
+[4.055s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/package_run_dependencies/quori_gazebo
+[4.060s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/parent_prefix_path/quori_gazebo
+[4.064s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/ament_prefix_path.sh
+[4.068s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/ament_prefix_path.dsv
+[4.081s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/path.sh
+[4.086s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/environment/path.dsv
+[4.090s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.bash
+[4.094s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.sh
+[4.097s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.zsh
+[4.101s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/local_setup.dsv
+[4.104s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/package.dsv
+[4.108s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/ament_index/resource_index/packages/quori_gazebo
+[4.111s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.114s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/quori_gazeboConfig.cmake
+[4.118s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/cmake/quori_gazeboConfig-version.cmake
+[4.121s] -- Symlinking: /home/jorge/quori_ws/install/quori_gazebo/share/quori_gazebo/package.xml
+[4.131s] Invoked command in '/home/jorge/quori_ws/build/quori_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jorge/quori_ws/install/quori_description:/home/jorge/quori_ws/install/respeaker_ros:/home/jorge/quori_ws/install/quori_work:/home/jorge/quori_ws/install/quori_teleop:/home/jorge/quori_ws/install/quori_msgs:/home/jorge/quori_ws/install/quori_launch:/home/jorge/quori_ws/install/quori_gazebo:/home/jorge/quori_ws/install/astra_ros:/home/jorge/ros2_ws/install/world_explorer_interfaces:/home/jorge/ros2_ws/install/rob599_msgs:/home/jorge/ros2_ws/install/examples_rclcpp_wait_set:/home/jorge/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_service:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_client:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclcpp_cbg_executor:/home/jorge/ros2_ws/install/examples_rclcpp_async_client:/home/jorge/ros2_ws/install/world_explorer:/home/jorge/ros2_ws/install/sense_stop_go:/home/jorge/ros2_ws/install/rob599_hw3:/home/jorge/ros2_ws/install/rob599_hw2:/home/jorge/ros2_ws/install/py_pubsub:/home/jorge/ros2_ws/install/launch_testing_examples:/home/jorge/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jorge/ros2_ws/install/examples_rclpy_minimal_service:/home/jorge/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jorge/ros2_ws/install/examples_rclpy_minimal_client:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jorge/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jorge/ros2_ws/install/examples_rclpy_guard_conditions:/home/jorge/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/jorge/.local/bin/cmake --install /home/jorge/quori_ws/build/quori_gazebo

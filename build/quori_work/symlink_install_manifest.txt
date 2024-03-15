@@ -1,0 +1,15 @@
+/home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/package_run_dependencies/quori_work
+/home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/parent_prefix_path/quori_work
+/home/jorge/quori_ws/install/quori_work/share/quori_work/environment/ament_prefix_path.sh
+/home/jorge/quori_ws/install/quori_work/share/quori_work/environment/ament_prefix_path.dsv
+/home/jorge/quori_ws/install/quori_work/share/quori_work/environment/path.sh
+/home/jorge/quori_ws/install/quori_work/share/quori_work/environment/path.dsv
+/home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.bash
+/home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.sh
+/home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.zsh
+/home/jorge/quori_ws/install/quori_work/share/quori_work/local_setup.dsv
+/home/jorge/quori_ws/install/quori_work/share/quori_work/package.dsv
+/home/jorge/quori_ws/install/quori_work/share/ament_index/resource_index/packages/quori_work
+/home/jorge/quori_ws/install/quori_work/share/quori_work/cmake/quori_workConfig.cmake
+/home/jorge/quori_ws/install/quori_work/share/quori_work/cmake/quori_workConfig-version.cmake
+/home/jorge/quori_ws/install/quori_work/share/quori_work/package.xml
