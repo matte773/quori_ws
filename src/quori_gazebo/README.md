@@ -23,6 +23,9 @@ quori_description
 
 #### Building
 
+#set Gazebo Path
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/[your path]/quori_ws/src/quori_description/models
+
 # Source ROS 2 environment
 source /opt/ros/humble/setup.bash
 
